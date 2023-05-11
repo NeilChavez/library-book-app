@@ -5,7 +5,7 @@ import { Home } from './pages/Home'
 import { Search } from './pages/Search'
 import { AboutUs } from './pages/AboutUs'
 import { Favorites } from './pages/Favorites'
-import './index.css'
+import './input.css'
 
 const domNode = document.getElementById('root') as HTMLElement
 const root = createRoot(domNode)
