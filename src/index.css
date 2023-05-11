@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    background-color: #111d22;
+    color:  #c9ab81;
+  }
+  input{
+    background-color: white;
+    border: solid 1px #c9ab81;
+    color:  #111d22
+  }
+  input:focus{
+    outline: none
+  }
+  button{
+    background-color: #c9ab81;
+    color: white;
+    padding: 0.2rem 1rem
+  }
+}
+
+@layer components {
+    .custom-gradient-1{
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(98,106,109,0.20632002801120453) 66%, rgba(17,29,34,1) 100%);
+  }
+  .custom-gradient-2{
+/* background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(17,29,34,0.5) 18%, rgba(17,29,34,1) 100%); */
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(98,106,109,0) 40%, rgba(17,29,34,1) 100%);
+  }
+}
