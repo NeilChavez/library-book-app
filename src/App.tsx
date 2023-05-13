@@ -1,4 +1,5 @@
 import { FavoritesContextProvider } from './context/FavContext'
+import { BooksContextProvider } from './context/BooksContext'
 import { Outlet } from 'react-router-dom'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
@@ -8,9 +9,11 @@ export const App: React.FC = () => {
   return (
     <>
       <Header />
-      <FavoritesContextProvider>
-        <Outlet />
-      </FavoritesContextProvider>
+      <BooksContextProvider>
+        <FavoritesContextProvider>
+          <Outlet />
+        </FavoritesContextProvider>
+      </BooksContextProvider>
       <Footer />
     </>
   )

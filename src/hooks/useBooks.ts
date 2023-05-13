@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { type ItemsEntity, type BookSearchResult } from '../types'
 import { API_KEY, GOOGLE_API } from '../consts'
+import { useBooksContext } from './useBooksContext'
 
 interface BooksResults {
   booksResults: ItemsEntity[] | null
@@ -13,7 +14,7 @@ export const useBooks = ({
 }: {
   querySearch?: string
 }): BooksResults => {
-  const [booksResults, setbooksResults] = useState<ItemsEntity[] | null>(null)
+  const { books: booksResults, setBooks: setbooksResults } = useBooksContext()
   const [isLoading, setIsLoading] = useState(false)
   const [error] = useState(false)
 
@@ -33,7 +34,8 @@ export const useBooks = ({
       })
       .catch((err) => {
         console.log(err)
-      }).finally(() => {
+      })
+      .finally(() => {
         setIsLoading(false)
       })
   }

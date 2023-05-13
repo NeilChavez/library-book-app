@@ -108,6 +108,10 @@ export interface FavoriteContextValue {
   setFavorites: React.Dispatch<SetStateAction<ItemsEntity[]>>
 }
 
+export interface BooksContextValue {
+  books: ItemsEntity[]
+  setBooks: React.Dispatch<SetStateAction<ItemsEntity[]>>
+}
 // export interface Books {
 //   numFound: number
 //   start: number
