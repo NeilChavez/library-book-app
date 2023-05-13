@@ -1,13 +1,9 @@
 import { createContext, useState } from 'react'
-import { type SetStateAction, type ReactNode } from 'react'
-import { type ItemsEntity } from '../types'
+import { type ReactNode } from 'react'
+import { type FavoriteContextValue, type ItemsEntity } from '../types'
 
 interface Props {
   children: ReactNode
-}
-interface FavoriteContextValue {
-  favorites: ItemsEntity[]
-  setFavorites: React.Dispatch<SetStateAction<ItemsEntity[]>>
 }
 
 export const FavoritesContext = createContext<FavoriteContextValue | null>(null)
