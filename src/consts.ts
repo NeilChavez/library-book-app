@@ -9,38 +9,32 @@ export const activities = [
     title: 'Group',
     description:
       'Admission to the Book of Kells and Old Library with free Audio Guide.',
-    image:
-      'https://tcdvisitors.sirv.com/visittrinity/2023/02/Standard-Ticket-3.jpg?cw=100.0000%25&ch=100.0000%25&scale.option=fill&w=0&h=600'
+    image: '/src/assets/images/activity-1.webp'
   },
   {
     title: 'TCD Students/Staff',
     description:
       'Staff/Students are welcome to visit free of charge with up to 2 guests.',
-    image:
-      'https://tcdvisitors.sirv.com/visittrinity/2023/02/Standard-Ticket.jpg?cw=100.0000%25&ch=100.0000%25&scale.option=fill&w=0&h=600'
+    image: './src/assets/images/activity-2.webp'
   },
   {
     title: 'Standard',
     description: 'Standard Entry to the Book of Kells',
-    image:
-      'https://tcdvisitors.sirv.com/visittrinity/2023/02/Student-Tickets.jpg?cw=100.0000%25&ch=100.0000%25&scale.option=fill&w=0&h=600'
+    image: './src/assets/images/activity-3.webp'
   },
   {
     title: 'Family',
     description: 'Up to 2 adults and 2 children (aged 6-17 years).',
-    image:
-      'https://tcdvisitors.sirv.com/visittrinity/2023/02/Group-Ticket.jpg?cw=100.0000%25&ch=100.0000%25&scale.option=fill&w=0&h=600'
+    image: './src/assets/images/activity-4.webp'
   },
   {
     title: 'Concession ',
     description: 'Students or seniors (over 60)',
-    image:
-      'https://tcdvisitors.sirv.com/visittrinity/2023/02/TCD-Student-Tickets.jpg?cw=100.0000%25&ch=100.0000%25&scale.option=fill&w=0&h=600'
+    image: './src/assets/images/activity-5.webp'
   },
   {
     title: 'Trinity Campus Tour ',
     description: 'Guided walking tour of Trinity campus ',
-    image:
-      'https://tcdvisitors.sirv.com/visittrinity/2023/02/Trinity-Trails-Adult-Tickets.jpg?cw=100.0000%25&ch=100.0000%25&scale.option=fill&w=0&h=600'
+    image: './src/assets/images/activity-6.webp'
   }
 ]
