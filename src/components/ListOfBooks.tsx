@@ -1,5 +1,5 @@
 import { type ItemsEntity } from '../types'
-import { Card as Book } from './Card'
+import { CardBook } from './CardBook'
 import { SectionContainer } from './Container'
 import { Heart } from './Heart'
 
@@ -16,9 +16,9 @@ export const ListOfBooks: React.FC<Props> = ({ books }) => {
         )}
         {books?.map((book) => {
           return (
-            <Book key={book.id} book={book} isBook={true}>
+            <CardBook key={book.id} book={book}>
               <Heart book={book} />
-            </Book>
+            </CardBook>
           )
         })}
       </ul>
