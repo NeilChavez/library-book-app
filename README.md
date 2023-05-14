@@ -10,6 +10,9 @@ This is a web application to search for books by title, author or keyword, and s
 ) ![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
 )
 
+![Preview](/src/assets/images/preview.gif)
+
+
 # Features
 
 - [x] Show an input to search for the movie and a button to search.
