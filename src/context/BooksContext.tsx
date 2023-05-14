@@ -11,7 +11,7 @@ interface Props {
 export const BooksContext = createContext<BooksContextValue | null>(null)
 
 export const BooksContextProvider: React.FC<Props> = ({ children }) => {
-  const [books, setBooks] = useState<ItemsEntity[]>([])
+  const [books, setBooks] = useState<ItemsEntity[] | null>(null)
   return (
     <BooksContext.Provider value={{ books, setBooks }}>
       {children}

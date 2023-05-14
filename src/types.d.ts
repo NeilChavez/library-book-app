@@ -109,6 +109,6 @@ export interface FavoriteContextValue {
 }
 
 export interface BooksContextValue {
-  books: ItemsEntity[]
+  books: ItemsEntity[] | null
   setBooks: React.Dispatch<SetStateAction<ItemsEntity[]>>
 }
