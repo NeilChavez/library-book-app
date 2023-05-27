@@ -9,32 +9,33 @@ export const activities = [
     title: 'Group',
     description:
       'Admission to the Book of Kells and Old Library with free Audio Guide.',
-    image: '/src/assets/images/activity-1.webp'
+    image: '/assets/images/activity-1.webp'
   },
   {
     title: 'TCD Students/Staff',
     description:
       'Staff/Students are welcome to visit free of charge with up to 2 guests.',
-    image: './src/assets/images/activity-2.webp'
+    image: '/assets/images/activity-2.webp'
   },
   {
     title: 'Standard',
     description: 'Standard Entry to the Book of Kells',
-    image: './src/assets/images/activity-3.webp'
+    image: '/assets/images/activity-3.webp'
   },
   {
     title: 'Family',
     description: 'Up to 2 adults and 2 children (aged 6-17 years).',
-    image: './src/assets/images/activity-4.webp'
+    image: '/assets/images/activity-4.webp'
   },
   {
     title: 'Concession ',
     description: 'Students or seniors (over 60)',
-    image: './src/assets/images/activity-5.webp'
+    image: '/assets/images/activity-5.webp'
   },
   {
     title: 'Trinity Campus Tour ',
     description: 'Guided walking tour of Trinity campus ',
-    image: './src/assets/images/activity-6.webp'
+    image: '/assets/images/activity-6.webp'
+    /// assets/images
   }
 ]
